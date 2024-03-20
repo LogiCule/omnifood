@@ -2,10 +2,15 @@
 
 --- 01 Typography System
 FONT WEIGHTS
-
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
 
 LINE HEIGHT 
 Default:1
+Small: 1.05
+Paragraph default: 1.6
 
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -28,7 +33,7 @@ FONT SIZE SYSTEM (px)
 
 
 --- 04 BORDER RADIUS
-
+9px
 
 
 --- 05 WHITESPACE
@@ -70,8 +75,8 @@ body {
   display: inline-block;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
-  text-decoration: none;
   border-radius: 0.9rem;
+  text-decoration: none;
   font-weight: 600;
   transition: all 0.3s;
 }
