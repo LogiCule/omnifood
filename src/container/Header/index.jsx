@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   const links = [
     { title: "How it works", href: "#howItWorks" },
-    { title: "Meals", href: "#" },
+    { title: "Meals", href: "#meals" },
     { title: "Testimonials", href: "#" },
     { title: "Pricing", href: "#" },
     { title: "Try for free", href: "#" },
@@ -12,7 +12,9 @@ const Header = () => {
 
   return (
     <header className="header">
-      <img className="logo" alt="logo" src="assets/omnifood-logo.png" />
+      <a href="#">
+        <img className="logo" alt="logo" src="assets/omnifood-logo.png" />
+      </a>
       <NavBar links={links} />
     </header>
   );
