@@ -6,12 +6,12 @@ const HowItWorks = () => {
     <section className="section-how">
       <div className="container">
         <span className="subheading">How it works</span>
-        <h2 className="heading-scondary">
+        <h2 className="heading-secondary">
           Your daily dose of health in 3 simple steps
         </h2>
       </div>
 
-      <div className="container grid grid--2-cols">
+      <div className="container grid grid--2-cols grid--center-v">
         <TextBox
           stepNo="01"
           title="Tell us what you like (and what not)"
