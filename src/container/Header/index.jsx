@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   const links = [
-    { title: "How it works", href: "#" },
+    { title: "How it works", href: "#howItWorks" },
     { title: "Meals", href: "#" },
     { title: "Testimonials", href: "#" },
     { title: "Pricing", href: "#" },
