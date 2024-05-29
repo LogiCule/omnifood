@@ -5,3 +5,4 @@ export { default as TextBox } from "./TextBox";
 export { default as MealCard } from "./MealCard";
 export { default as DietList } from "./DietList";
 export { default as Tag } from "./Tag";
+export { default as FeedBack } from "./FeedBack";

@@ -5,8 +5,8 @@ const Header = () => {
   const links = [
     { title: "How it works", href: "#howItWorks" },
     { title: "Meals", href: "#meals" },
-    { title: "Testimonials", href: "#" },
-    { title: "Pricing", href: "#" },
+    { title: "Testimonials", href: "#testimonials" },
+    { title: "Pricing", href: "#pricing" },
     { title: "Try for free", href: "#" },
   ];
 

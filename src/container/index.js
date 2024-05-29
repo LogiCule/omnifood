@@ -6,3 +6,5 @@ export { default as HowItWorks } from "./HowItWorks";
 export { default as Meals } from "./Meals";
 export { default as Pricing } from "./Pricing";
 export { default as Header } from "./Header";
+export { default as Testimonials } from "./Testimonials";
+export { default as Customers } from "./Customers";

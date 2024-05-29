@@ -2,12 +2,12 @@ import "./App.css";
 import {
   FeaturedIn,
   Footer,
-  Gallery,
   Header,
   Hero,
   HowItWorks,
   Meals,
   Pricing,
+  Testimonials,
 } from "./container";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <FeaturedIn />
         <HowItWorks />
         <Meals />
-        <Gallery />
+        <Testimonials />
         <Pricing />
       </main>
       <Footer />
