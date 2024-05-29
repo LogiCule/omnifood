@@ -4,7 +4,7 @@ import "./FeatureCard.css";
 const FeatureCard = ({ text, title, icon }) => {
   return (
     <div className="feature">
-      <div className="feature-icon">{icon}</div>
+      {icon}
       <p className="feature-title">{title}</p>
       <p className="feature-text">{text}</p>
     </div>

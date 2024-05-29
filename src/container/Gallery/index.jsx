@@ -1,7 +1,7 @@
 import { ImgCard } from "../../components";
 import "./Gallery.css";
 
-const path = "/public/assets/gallery/gallery-";
+const path = "/assets/gallery/gallery-";
 const array = new Array(12).fill(0);
 
 const Gallery = () => {

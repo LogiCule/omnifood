@@ -2,13 +2,7 @@ import { PropTypes } from "prop-types";
 import List from "../List";
 import "./PricingPlan.css";
 
-const PricingPlan = ({
-  name,
-  price,
-  details,
-  isPrimary = true,
-  extraClass = "",
-}) => {
+const PricingPlan = ({ name, price, details, extraClass = "" }) => {
   return (
     <div className={`pricing-plan ${extraClass}`}>
       <header className="plan-header">
@@ -21,10 +15,7 @@ const PricingPlan = ({
       </header>
       <List list={details} />
       <div className="plan-signup">
-        <a
-          href="#"
-          className={`btn btn--${isPrimary ? "primary" : "secondary"}`}
-        >
+        <a href="#" className={`btn btn--primary`}>
           Start eating well
         </a>
       </div>
@@ -36,7 +27,7 @@ PricingPlan.propTypes = {
   name: PropTypes.string,
   price: PropTypes.string,
   details: PropTypes.array,
-  isPrimary: PropTypes.boolean,
+
   extraClass: PropTypes.string,
 };
 export default PricingPlan;
