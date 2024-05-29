@@ -116,19 +116,24 @@ const Meals = () => {
   ];
   return (
     <section className="section-meals" id="meals">
-      <div className="container">
+      <div className="container center-text">
         <span className="subheading">Meals</span>
         <h2 className="heading-secondary">
           Omnifood AI chooses from 5,000+ recipes
         </h2>
       </div>
 
-      <div className="container grid grid--3-cols">
+      <div className="container grid grid--3-cols margin-bottom-md">
         {meals.map((meal) => (
           <MealCard key={meal.title} {...meal} />
         ))}
 
         <DietList />
+      </div>
+      <div className="container all-recipes">
+        <a href="#" className="link">
+          See all recipes &rarr;
+        </a>
       </div>
     </section>
   );
