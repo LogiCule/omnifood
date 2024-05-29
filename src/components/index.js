@@ -7,3 +7,4 @@ export { default as DietList } from "./DietList";
 export { default as Tag } from "./Tag";
 export { default as FeedBack } from "./FeedBack";
 export { default as ImgCard } from "./ImgCard";
+export { default as PricingPlan } from "./PricingPlan";
