@@ -4,11 +4,8 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <section
-      className="section-testimonials grid grid--2-cols"
-      id="testimonials"
-    >
-      <div>
+    <section className="section-testimonials" id="testimonials">
+      <div className="testimonials-container">
         <span className="subheading">Testimonials</span>
         <h2 className="heading-secondary">
           Once you try it, you cant go back!
