@@ -1,15 +1,15 @@
 import List from "../List";
 
 const dietList = [
-  "Vegetarian",
-  "Vegan",
-  "Pescatarian",
-  "Gluten-free",
-  "Lactose-free",
-  "Keto",
-  "Paleo",
-  "Low FODMAP",
-  "Kid-friendly",
+  { text: "Vegetarian" },
+  { text: "Vegan" },
+  { text: "Pescatarian" },
+  { text: "Gluten-free" },
+  { text: "Lactose-free" },
+  { text: "Keto" },
+  { text: "Paleo" },
+  { text: "Low FODMAP" },
+  { text: "Kid-friendly" },
 ];
 
 const DietList = () => {
