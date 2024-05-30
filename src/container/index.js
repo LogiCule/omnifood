@@ -8,3 +8,4 @@ export { default as Pricing } from "./Pricing";
 export { default as Header } from "./Header";
 export { default as Testimonials } from "./Testimonials";
 export { default as Customers } from "./Customers";
+export { default as CallToAction } from "./CallToAction";

@@ -1,5 +1,6 @@
 import "./App.css";
 import {
+  CallToAction,
   FeaturedIn,
   Footer,
   Header,
@@ -21,6 +22,7 @@ function App() {
         <Meals />
         <Testimonials />
         <Pricing />
+        <CallToAction />
       </main>
       <Footer />
     </>
