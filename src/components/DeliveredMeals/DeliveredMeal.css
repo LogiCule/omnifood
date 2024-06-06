@@ -30,3 +30,10 @@
   color: #cf711f;
   font-weight: 700;
 }
+
+@media (max-width: 59em) {
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+}
