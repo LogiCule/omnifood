@@ -59,7 +59,7 @@ FONT SIZE SYSTEM (px)
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
- }
+}
 
 html {
   font-size: 62.5%; /* Set the base font size to 10*/
@@ -183,7 +183,7 @@ body {
 }
 
 .container {
-  max-width: 130rem;
+  max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
