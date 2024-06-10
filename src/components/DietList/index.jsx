@@ -1,4 +1,5 @@
 import List from "../List";
+import "./DietList.css";
 
 const dietList = [
   { text: "Vegetarian" },
