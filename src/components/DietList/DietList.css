@@ -1,0 +1,6 @@
+@media (max-width: 44em) {
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}

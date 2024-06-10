@@ -9,4 +9,37 @@
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+/* .icon-mobile-nav {
+} */
+
+@media (max-width: 75em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 10;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    
+  }
 }
