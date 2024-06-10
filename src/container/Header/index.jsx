@@ -19,11 +19,11 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className={`header ${!isNav ? "nav-open" : ""}`}>
       <a href="#">
         <img className="logo" alt="logo" src="assets/omnifood-logo.png" />
       </a>
-      <NavBar links={links} isShow={!isNav} />
+      <NavBar links={links} updater={() => setIsNav(true)} />
       <button className="btn-mobile-nav" onClick={toggleIsNav}>
         {isNav ? (
           <MenuOutline {...styles} cssClasses={"icon-mobile-nav"} />
