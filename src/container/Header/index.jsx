@@ -1,7 +1,7 @@
 import { CloseOutline, MenuOutline } from "react-ionicons";
 import { NavBar } from "../../components";
+import { useStateValue } from "../../context";
 import "./Header.css";
-import { useState } from "react";
 const links = [
   { title: "How it works", href: "#howItWorks" },
   { title: "Meals", href: "#meals" },
@@ -12,11 +12,9 @@ const links = [
 const styles = { height: "4.8rem", width: "4.8rem", color: "#333" };
 
 const Header = () => {
-  const [isNav, setIsNav] = useState(true);
+  const { isNav, setIsNav } = useStateValue();
 
-  const toggleIsNav = () => {
-    setIsNav((prev) => !prev);
-  };
+  const toggleIsNav = () => setIsNav((prev) => !prev);
 
   return (
     <header className={`header ${!isNav ? "nav-open" : ""}`}>
