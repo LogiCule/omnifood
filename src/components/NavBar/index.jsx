@@ -2,9 +2,9 @@ import { PropTypes } from "prop-types";
 
 import "./NavBar.css";
 
-const NavBar = ({ links }) => {
+const NavBar = ({ links, isShow }) => {
   return (
-    <nav className="main-nav">
+    <nav className={`main-nav ${isShow ? "show" : ""}`}>
       <ul className="main-nav-list">
         {links?.map((link, index) => (
           <a
@@ -24,5 +24,6 @@ const NavBar = ({ links }) => {
 
 NavBar.propTypes = {
   links: PropTypes.array,
+  isShow: PropTypes.boolean,
 };
 export default NavBar;
