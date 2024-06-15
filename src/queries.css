@@ -54,4 +54,10 @@
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
 }

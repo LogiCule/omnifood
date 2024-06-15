@@ -28,3 +28,9 @@
     height: 2.4rem;
   }
 }
+
+@media (max-width: 35em) {
+  .logos img {
+    height: 1.2rem;
+  }
+}
