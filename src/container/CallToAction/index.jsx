@@ -13,12 +13,7 @@ const CallToAction = () => {
               meal is on us!
             </p>
 
-            <form
-              className="cta-form"
-              name="contact"
-              method="POST"
-              data-netlify="true"
-            >
+            <form className="cta-form" name="contact">
               <div>
                 <label htmlFor="full-name">Full Name</label>
                 <input
