@@ -15,7 +15,7 @@ const CallToAction = () => {
 
             {
               /*  eslint-disable-next-line react/no-unknown-property */
-              <form className="cta-form" name="contact" netlify>
+              <form className="cta-form" name="contact" method="POST" netlify>
                 <div>
                   <label htmlFor="full-name">Full Name</label>
                   <input
